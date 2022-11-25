@@ -2,7 +2,7 @@
 /* eslint-disable node/no-unpublished-import */
 import test from "ava";
 
-import { getListSymbol, getListType } from "../lib/utils/list";
+import { getListSymbol, getListType } from "../src/lib/utils/list";
 
 test("should be 'disc' for ['disc', 'square']", (t) => {
   t.is(getListType("disc", "square"), "disc");
